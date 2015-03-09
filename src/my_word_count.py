@@ -12,7 +12,6 @@ for file in sorted(os.listdir(inputdir)): #sort the files alphabetically
 			for punc in punctuations:
 				line = line.lower().replace(punc, "") #remove all punctuations			
 			for word in line.split():
-				#word = word.encode("utf-8-sig") #encode back 
 				if word in wordcount:
 					wordcount[word] += 1
 				else:
