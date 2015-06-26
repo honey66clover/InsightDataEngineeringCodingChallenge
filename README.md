@@ -1,3 +1,5 @@
+This is for the spring section coding challenge of insight data program.
+
 For the second problem, numpy package is used to store and manipulate array.
 The second problem is to find out the running median of a stream of integers. 
 Each integer is the numbers of words of a line.
